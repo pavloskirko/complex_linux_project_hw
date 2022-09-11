@@ -1,3 +1,6 @@
+#ifndef MAIN_H
+#define MAIN_H
+
 #include "biargument_math.h"
 #include "oneargument_math.h"
 
@@ -10,3 +13,5 @@ enum user_choise
 	factorial = 5,
 	square_root = 6,
 };
+
+#endif //MAIN_H

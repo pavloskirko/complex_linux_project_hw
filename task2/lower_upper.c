@@ -7,7 +7,7 @@ int convert_to_lower(char * str, int length)
 	{
 		if ( !strcmp(&str[i], "\n" ) )
 		{
-			printf("%s\n", str);
+			printf("%s", str);
 			return 0;
 		}
 		str[i] = tolower(str[i]);
@@ -21,7 +21,7 @@ int convert_to_upper(char * str, int length)
 	{
 		if ( !strcmp(&str[i], "\n" ) )
 		{
-			printf("%s\n", str);
+			printf("%s", str);
 			return 0;
 		}
 		str[i] = toupper(str[i]);

@@ -17,3 +17,7 @@ oneargument_math.o: oneargument_math.c $(DEPS)
 
 libcalc.a: biargument_math.o oneargument_math.o
 	ar -rcs $@ $^
+
+clean:
+	rm -rf *.o *.gch *.a 
+	rm -rf main
